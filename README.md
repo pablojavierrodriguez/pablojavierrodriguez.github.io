@@ -8,7 +8,7 @@ This repository serves as the landing page for my GitHub presence.
 - 🧑‍💻 Product & Business Analyst passionate about technology and problem-solving.
 - 📚 Self-taught developer with a love for programming and continuous learning.
 - 🌱 Currently seeking new opportunities to make an impact and grow professionally.
-- 📫 Reach me at [pablojavierrodriguez.github.io](https://pablojavierrodriguez.github.io)
+- 📫 Reach me at [linkedin/pablojavierrodriguez](https://www.linkedin.com/in/pablojavierrodriguez/)
 
 ## 🛠️ Technologies & Tools
 
@@ -32,7 +32,7 @@ Este repositorio es la página de inicio de mi presencia en GitHub.
 - 🧑‍💻 Analista de Producto y Negocios apasionado por la tecnología y la resolución de problemas.
 - 📚 Desarrollador autodidacta con amor por la programación y el aprendizaje continuo.
 - 🌱 Actualmente en búsqueda de nuevas oportunidades para crecer profesionalmente y generar impacto.
-- 📫 Contáctame en [pablojavierrodriguez.github.io](https://pablojavierrodriguez.github.io)
+- 📫 Contáctame en [linkedin/pablojavierrodriguez](https://www.linkedin.com/in/pablojavierrodriguez/)
 
 ## 🛠️ Tecnologías y herramientas
 
