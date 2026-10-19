@@ -16,7 +16,7 @@ export const translations = {
     },
     status: {
       available: 'Disponible para Advisory',
-      location: 'Esquel, ARG · Remoto Global',
+      location: 'Argentina · Remoto Global',
     },
     hero: {
       role: 'Solutions Architect & Digital Products Builder',
@@ -24,7 +24,7 @@ export const translations = {
         'Diseño sistemas donde la intención de negocio, la solidez técnica y los agentes autónomos convergen en software que sobrevive al sprint en que nació.',
       cta_systems: 'Ver mis sistemas',
       cta_contact: 'Hablemos',
-      badge: 'Monografía Arquitectónica · Vol. 01',
+      badge: 'Solutions Architecture & Digital Products',
     },
     systems: {
       title: 'Living System Index',
@@ -42,8 +42,8 @@ export const translations = {
       launch_demo: 'Ver Demo en Vivo →',
     },
     chronicle: {
-      title: 'Crónica Arquitectónica',
-      subtitle: 'No una lista de puestos — una historia de sistemas construidos, decisiones tomadas e impacto medible.',
+      title: 'Crónica',
+      subtitle: 'Evolución de sistemas construidos, decisiones de arquitectura e impacto medible.',
       linkedin_cta: 'Perfil completo en LinkedIn →',
       current: 'Actual',
       former: 'Anterior',
@@ -70,7 +70,7 @@ export const translations = {
       linkedin_label: 'LinkedIn',
       linkedin_cta: 'Conectemos →',
       location_label: 'Ubicación & Zona Horaria',
-      location_detail: 'Esquel, Argentina (ART, UTC-3). Remote-first, async-friendly.',
+      location_detail: 'Argentina (ART, UTC-3). Remote-first, async-friendly.',
       looking_for: 'Conversaciones que me interesan',
       items: [
         { title: 'Advisory técnico o de producto', desc: 'Arquitectura de sistemas, estrategia de producto, OKRs' },
@@ -83,7 +83,7 @@ export const translations = {
     footer: {
       role: 'Solutions Architect & Digital Products Builder',
       tagline: 'Construido con propósito. Sin templates, sin relleno.',
-      copyright: '© 2026 · Esquel, Argentina · Remote-first',
+      copyright: '© 2026 · Argentina · Remote-first',
       lang_note: 'Este sitio también está disponible en inglés.',
     },
   },
@@ -102,7 +102,7 @@ export const translations = {
     },
     status: {
       available: 'Open for Advisory',
-      location: 'Esquel, ARG · Remote Global',
+      location: 'Argentina · Remote Global',
     },
     hero: {
       role: 'Solutions Architect & Digital Products Builder',
@@ -110,7 +110,7 @@ export const translations = {
         'I design systems where business intent, technical resilience, and autonomous agents converge into software that outlasts the sprint it was born in.',
       cta_systems: 'Explore my systems',
       cta_contact: "Let's talk",
-      badge: 'Architectural Monograph · Vol. 01',
+      badge: 'Solutions Architecture & Digital Products',
     },
     systems: {
       title: 'Living System Index',
@@ -128,8 +128,8 @@ export const translations = {
       launch_demo: 'Launch Live Demo →',
     },
     chronicle: {
-      title: 'Architectural Chronicle',
-      subtitle: "Not a list of job titles — a record of systems built, decisions made, and measurable impact.",
+      title: 'Chronicle',
+      subtitle: "A record of systems built, architectural decisions made, and measurable impact.",
       linkedin_cta: 'Full profile on LinkedIn →',
       current: 'Current',
       former: 'Former',
@@ -156,7 +156,7 @@ export const translations = {
       linkedin_label: 'LinkedIn',
       linkedin_cta: 'Connect →',
       location_label: 'Location & Timezone',
-      location_detail: 'Esquel, Argentina (ART, UTC-3). Remote-first, async-friendly.',
+      location_detail: 'Argentina (ART, UTC-3). Remote-first, async-friendly.',
       looking_for: "Conversations I'm excited about",
       items: [
         { title: 'Technical or product advisory', desc: 'Systems architecture, product strategy, OKRs' },
@@ -169,7 +169,7 @@ export const translations = {
     footer: {
       role: 'Solutions Architect & Digital Products Builder',
       tagline: 'Built with purpose. No templates, no fluff.',
-      copyright: '© 2026 · Esquel, Argentina · Remote-first',
+      copyright: '© 2026 · Argentina · Remote-first',
       lang_note: 'Este sitio también está disponible en español.',
     },
   },

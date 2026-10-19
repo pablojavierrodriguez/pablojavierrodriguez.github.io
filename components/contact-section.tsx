@@ -28,7 +28,7 @@ export function ContactSection() {
               <p className="text-[11px] font-mono text-zinc-500 mb-1">{t(lang, 'contact.email_label')}</p>
               <a
                 href={`mailto:${profile.email}`}
-                className="text-sm text-white hover:text-zinc-200 transition-colors font-medium"
+                className="text-sm text-white hover:text-zinc-200 transition-colors font-medium cursor-pointer"
               >
                 {profile.email}
               </a>
@@ -41,7 +41,7 @@ export function ContactSection() {
                 href={profile.links.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm text-indigo-400 hover:text-indigo-300 transition-colors font-medium"
+                className="text-sm text-indigo-400 hover:text-indigo-300 transition-colors font-medium cursor-pointer"
               >
                 {t(lang, 'contact.linkedin_cta')}
               </a>
@@ -49,7 +49,7 @@ export function ContactSection() {
 
             <div className="p-4 rounded-xl border border-white/[0.06] bg-white/[0.01]">
               <p className="text-[11px] font-mono text-zinc-500 mb-1">{t(lang, 'contact.location_label')}</p>
-              <p className="text-sm text-white">{profile.location.city}, {profile.location.province} — {profile.location.timezone}</p>
+              <p className="text-sm text-white">{profile.location.country} — {profile.location.timezone}</p>
               <p className="text-[11px] text-zinc-500 mt-0.5">{t(lang, 'contact.location_detail')}</p>
             </div>
           </div>

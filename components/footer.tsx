@@ -16,9 +16,9 @@ export function Footer() {
         </div>
         <div className="flex flex-col items-center sm:items-end gap-1">
           <div className="flex items-center gap-3">
-            <a href={profile.links.github} target="_blank" rel="noopener noreferrer" className="hover:text-zinc-400 transition-colors">GitHub</a>
+            <a href={profile.links.github} target="_blank" rel="noopener noreferrer" className="hover:text-zinc-400 transition-colors cursor-pointer">GitHub</a>
             <span>·</span>
-            <a href={profile.links.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-zinc-400 transition-colors">LinkedIn</a>
+            <a href={profile.links.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-zinc-400 transition-colors cursor-pointer">LinkedIn</a>
           </div>
           <p>{t(lang, 'footer.copyright')}</p>
         </div>

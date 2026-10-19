@@ -22,9 +22,9 @@ export function ChronicleSection() {
             href={profile.links.linkedin}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-xs font-mono text-indigo-400 hover:text-indigo-300 transition-colors self-start sm:self-end shrink-0"
+            className="text-xs font-mono text-indigo-400 hover:text-indigo-300 transition-colors self-start sm:self-end shrink-0 cursor-pointer flex items-center gap-1 group"
           >
-            {t(lang, 'chronicle.linkedin_cta')}
+            <span>{t(lang, 'chronicle.linkedin_cta')}</span>
           </a>
         </div>
 

@@ -22,14 +22,11 @@ export function Navigation() {
         {/* Brand */}
         <Link
           href="/"
-          className="flex items-center gap-2.5 group"
+          className="flex items-center gap-1 group cursor-pointer"
           aria-label="Home"
         >
-          <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-zinc-300 to-zinc-500 flex items-center justify-center text-[11px] font-mono font-bold text-zinc-900 border border-white/10 group-hover:from-white group-hover:to-zinc-300 transition-all">
-            PR
-          </div>
-          <span className="font-mono text-xs text-zinc-400 group-hover:text-zinc-200 transition-colors hidden sm:block">
-            {profile.handle}
+          <span className="font-mono text-sm font-bold text-white tracking-tight group-hover:text-zinc-300 transition-colors">
+            /{profile.handle}
           </span>
         </Link>
 

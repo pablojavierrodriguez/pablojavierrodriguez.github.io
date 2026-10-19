@@ -12,8 +12,6 @@ export const profile = {
     en: 'Solutions Architect & Digital Products Builder',
   },
   location: {
-    city: 'Esquel',
-    province: 'Chubut',
     country: 'Argentina',
     timezone: 'ART (UTC-3)',
     remote: true,
@@ -77,7 +75,7 @@ export const systems: SystemProject[] = [
     },
     status: 'production',
     visibility: 'open-source',
-    lifecycle: { es: 'Producción (v1.0.1)', en: 'Production (v1.0.1)' },
+    lifecycle: { es: 'Producción (v1.7.0)', en: 'Production (v1.7.0)' },
     description: {
       es: 'Workspace local-first para gestionar backlogs de ingeniería y producto, iteraciones y releases directamente en Git. Da a los agentes de IA (Cursor, Claude Code, Antigravity) especificaciones estructuradas y criterios de aceptación verificables sin mover el roadmap a servicios cloud de terceros.',
       en: 'A local-first workspace for managing engineering and product backlogs, iterations, and releases alongside your code in Git. Gives AI agents (Cursor, Claude Code, Antigravity) structured specifications and verifiable acceptance criteria without moving your roadmap to third-party cloud services.',
@@ -113,16 +111,17 @@ export const systems: SystemProject[] = [
     },
     status: 'active-oss',
     visibility: 'open-source',
-    lifecycle: { es: 'Activo (OSS · MIT)', en: 'Active (OSS · MIT)' },
+    lifecycle: { es: 'Activo (v2.5.0 · OSS)', en: 'Active (v2.5.0 · OSS)' },
     description: {
       es: 'Marco de trabajo con roles adaptativos (PM Orchestrator, Principal Engineer, Rigorous QA Auditor, World-class UX Designer) y contratos de handoff verificables para orquestación de subagentes en ciclos de desarrollo acelerados por IA.',
       en: 'An agile framework with adaptive roles (PM Orchestrator, Principal Engineer, Rigorous QA Auditor, World-class UX Designer) and verifiable handoff contracts for orchestrating sub-agents in AI-accelerated development cycles.',
     },
     topology:
       '[PM Orchestrator] → Handoff Contract\n          ↓\n[Principal Engineer] → Audit Gate → [Rigorous QA Auditor]\n          ↓                                    ↓\n[UX Designer Gate] ←──── Review Loop ──────────┘',
-    stack: ['Agentic Workflows', 'Dynamic Role Prompting', 'Sub-Agent Lifecycle Management', 'Git Quality Gates', 'Static UX Auditing'],
+    stack: ['Agentic Workflows', 'Dynamic Role Prompting', 'Sub-Agent Lifecycle Management', 'Git Quality Gates', 'Static UX Auditing', 'npm @gripm/playbook'],
     links: {
       github: 'https://github.com/pablojavierrodriguez/gripm-playbook',
+      npm: 'https://www.npmjs.com/package/@gripm/playbook',
     },
     productView: {
       es: 'Convierte cualquier IDE con IA en un equipo de ingeniería autónomo con responsabilidades claras, roles adaptativos y puertas de calidad verificables. Sin overhead burocrático, con toda la estructura que necesita un equipo de software de alto rendimiento.',
@@ -293,70 +292,70 @@ export interface Role {
 
 export const roles: Role[] = [
   {
-    title: { es: 'Technical Product Owner', en: 'Technical Product Owner' },
+    title: { es: 'Technical Product Owner — OSS Ecosystem', en: 'Technical Product Owner — OSS Ecosystem' },
     company: 'Personal (Telecom Argentina)',
-    period: { es: 'Dic 2025 – Presente', en: 'Dec 2025 – Present' },
-    isCurrent: true,
+    period: { es: '2024 – 2026', en: '2024 – 2026' },
+    isCurrent: false,
     highlights: [
       {
-        es: 'Dueño del sistema E2E de tickets OSS soportando operaciones críticas de red para 130K+ incidentes por mes.',
-        en: 'End-to-end owner of the OSS ticketing system supporting critical network operations for 130K+ incidents/month.',
+        es: 'Arquitectura de solución y dueño end-to-end del sistema de tickets y operaciones críticas OSS para 130K+ incidentes/mes.',
+        en: 'Solution architecture and end-to-end owner of the critical OSS ticketing and operations platform for 130K+ incidents/month.',
       },
       {
-        es: 'Dirijo iniciativas de automatización e IA para reducir trabajo manual y anticipar incidentes.',
-        en: 'Leading automation and AI initiatives to reduce manual work and anticipate incidents.',
+        es: 'Liderazgo en iniciativas de automatización e IA operativa: reducción directa de trabajo manual y detección anticipada.',
+        en: 'Led operational automation and AI initiatives: direct reduction in manual toil and proactive incident anticipation.',
       },
       {
-        es: 'Colaboro transversalmente con arquitectura, ingeniería, assurance y ciberseguridad en el ecosistema OSS modular.',
-        en: 'Cross-functional collaboration with architecture, engineering, assurance, and cybersecurity on the modular OSS ecosystem.',
+        es: 'Articulación transversal entre arquitectura técnica, ingeniería, aseguramiento de calidad y ciberseguridad.',
+        en: 'Cross-functional governance spanning technical architecture, engineering, QA assurance, and cybersecurity.',
       },
     ],
   },
   {
     title: { es: 'Product Manager & Product Owner', en: 'Product Manager & Product Owner' },
     company: 'Telecom Argentina',
-    period: { es: 'Feb 2022 – Dic 2025', en: 'Feb 2022 – Dec 2025' },
+    period: { es: '2022 – 2025', en: '2022 – 2025' },
     isCurrent: false,
     highlights: [
       {
-        es: 'Lideré el descubrimiento y entrega de soluciones en el ecosistema OSS a través de 13 squads y múltiples stakeholders.',
-        en: 'Led discovery and delivery of solutions across the OSS ecosystem through 13 squads and multiple stakeholders.',
+        es: 'Descubrimiento, arquitectura funcional y entrega continua de soluciones en el ecosistema OSS a través de múltiples squads.',
+        en: 'Discovery, functional architecture, and continuous delivery of OSS ecosystem solutions across multiple squads.',
       },
       {
-        es: '2023: Transformación agile del equipo completo (+30% eficiencia de sprints) y rediseño de producto (+25% KPI de usabilidad).',
-        en: '2023: Full-team agile transformation (+30% sprint efficiency) and product redesign (+25% usability KPI).',
+        es: 'Transformación ágil de punta a punta (+30% eficiencia de sprints) y rediseño integral de producto (+25% KPI de usabilidad).',
+        en: 'End-to-end agile transformation (+30% sprint efficiency) and comprehensive product redesign (+25% usability KPI).',
       },
       {
-        es: '2025: Lideré el reemplazo del sistema OSS core — la mayor transformación digital del área en 5 años.',
-        en: '2025: Led the replacement of the core OSS system — the largest digital transformation in the area in 5 years.',
+        es: 'Liderazgo en el reemplazo y modernización de la aplicación core del ecosistema OSS.',
+        en: 'Led the modernization and replacement of the core operational application in the OSS ecosystem.',
       },
     ],
   },
   {
     title: { es: 'Sr. Analista de Mejora Continua', en: 'Sr. Continuous Improvement Analyst' },
     company: 'Telecom Argentina',
-    period: { es: 'Jun 2019 – Feb 2022', en: 'Jun 2019 – Feb 2022' },
+    period: { es: '2019 – 2022', en: '2019 – 2022' },
     isCurrent: false,
     highlights: [
       {
-        es: 'Referente de procesos y agente de cambio durante la transformación convergente post-fusión Telecom/Cablevisión.',
-        en: 'Process reference and change agent during the post-merger Telecom/Cablevisión convergence transformation.',
+        es: 'Arquitectura de procesos y agente de cambio durante la fusión Telecom/Cablevisión para 3500+ usuarios operativos.',
+        en: 'Process architecture and change agent during the Telecom/Cablevisión merger for 3,500+ operational users.',
       },
       {
-        es: 'Lideré el Proyecto CROSS: sistema de tickets unificado para 3500+ usuarios en CTO y operaciones regionales.',
-        en: 'Led Project CROSS: unified ticketing system for 3,500+ users across CTO and regional operations.',
+        es: 'Lideré el Proyecto CROSS: unificación e interoperabilidad de sistemas de tickets para CTO y operaciones.',
+        en: 'Led Project CROSS: unification and interoperability of ticketing systems for CTO and regional operations.',
       },
     ],
   },
   {
     title: { es: 'Co-fundador', en: 'Co-founder' },
     company: 'Mediavint',
-    period: { es: 'Abr 2020 – Abr 2021', en: 'Apr 2020 – Apr 2021' },
+    period: { es: '2020 – 2021', en: '2020 – 2021' },
     isCurrent: false,
     highlights: [
       {
-        es: 'Emprendimiento de consultoría en estrategia digital y comunicaciones para emprendedores en etapa temprana.',
-        en: 'Digital strategy and communications consultancy for early-stage entrepreneurs.',
+        es: 'Consultoría estratégica en arquitectura digital, posicionamiento de producto y modelos de negocio en etapa temprana.',
+        en: 'Strategic consultancy in digital architecture, product positioning, and early-stage business models.',
       },
     ],
   },
@@ -389,42 +388,42 @@ export const education = {
   ],
 }
 
-// ─── DESIGN PILLARS ───────────────────────────────────────────────────────────
+// ─── DESIGN PILLARS (Universal & Agnostic) ───────────────────────────────────
 export const principles = [
   {
-    id: 'sovereignty',
+    id: 'data-autonomy',
     number: '01',
-    title: { es: 'Soberanía Primero', en: 'Sovereignty First' },
+    title: { es: 'Autonomía e Interoperabilidad', en: 'Data Autonomy & Open Interfaces' },
     body: {
-      es: 'Los datos y roadmaps del usuario nunca deben quedar como rehenes de servicios cloud propietarios. Local-first no es una restricción técnica — es una decisión ética de diseño.',
-      en: "Users' data and roadmaps should never be held hostage by proprietary cloud services. Local-first isn't a technical constraint — it's an ethical design decision.",
+      es: 'Los sistemas deben diseñarse minimizando acoplamientos forzados con plataformas propietarias. Estándares abiertos, portabilidad e interfaces limpias garantizan que el valor y los datos pertenezcan al producto, no a la nube de turno.',
+      en: 'Systems should be designed minimizing forced vendor lock-in. Open standards, clean interfaces, and portable architectures ensure data and logic belong to the product, not to the hosting vendor.',
     },
   },
   {
-    id: 'agent-ready',
+    id: 'dual-layer-protocols',
     number: '02',
-    title: { es: 'Protocolos Abiertos para Agentes', en: 'Agent-Ready Protocols' },
+    title: { es: 'Interfases para Humanos y Máquinas', en: 'Human & Machine Protocol Design' },
     body: {
-      es: 'El software moderno debe exponer contratos legibles tanto por humanos como por agentes de IA (MCP, JSON-RPC, Markdown). La próxima capa de usuarios son los agentes autónomos.',
-      en: 'Modern software must expose contracts readable by both humans and AI agents (MCP, JSON-RPC, Markdown). The next layer of users are autonomous agents.',
+      es: 'El software moderno no solo es consumido por personas en una interfaz gráfica; es operado por agentes de IA, procesos asíncronos y scripts. Diseñar contratos y protocolos limpios (APIs tipadas, JSON-RPC, MCP, CLI) es un requisito desde el día cero.',
+      en: 'Modern software is not just operated by humans through a GUI; it is driven by AI agents, headless pipelines, and scripts. Designing clean contracts and open protocols (typed APIs, JSON-RPC, MCP, CLI) is a day-zero requirement.',
     },
   },
   {
-    id: 'pragmatic-craft',
+    id: 'resilient-simplicity',
     number: '03',
-    title: { es: 'Artesanía Pragmática', en: 'Pragmatic Craft' },
+    title: { es: 'Simplicidad Resiliente', en: 'Resilient Simplicity' },
     body: {
-      es: 'Menos dependencias innecesarias, más solidez. La arquitectura sirve al producto y al usuario, no a la complejidad gratuita ni al currículum del desarrollador.',
-      en: "Fewer unnecessary dependencies, more resilience. Architecture serves the product and user, not gratuitous complexity or the developer's résumé.",
+      es: 'La verdadera sofisticación arquitectónica consiste en saber qué NO construir. La complejidad gratuita cobra peaje en velocidad de entrega y fragilidad operativa. Diseñar con modularidad pragmática hoy para poder evolucionar sin reescribir mañana.',
+      en: 'True architectural sophistication is knowing what NOT to build. Gratuitous complexity exacts a heavy toll on delivery velocity and operational stability. Design with pragmatic modularity today to evolve without rewrites tomorrow.',
     },
   },
   {
-    id: 'system-thinking',
+    id: 'systems-thinking',
     number: '04',
-    title: { es: 'Pensamiento de Sistemas', en: 'Systems Thinking' },
+    title: { es: 'Integridad de Sistemas de Punta a Punta', en: 'End-to-End System Integrity' },
     body: {
-      es: 'No optimizo features de forma aislada — mapeo el sistema completo. Los cuellos de botella siempre están en las interfaces entre componentes, no dentro de ellos.',
-      en: "I don't optimize features in isolation — I map the full system. Bottlenecks are always at the interfaces between components, not inside them.",
+      es: 'Las fallas críticas de producto rara vez ocurren en un componente aislado; ocurren en la fricción entre interfaces: negocio, datos, UX y operaciones. La arquitectura debe gobernar el flujo completo para que el impacto sea real y medible.',
+      en: 'Critical product failures rarely happen inside an isolated component; they occur at the seams between business intent, data flow, UX, and operations. Architecture must govern the entire lifecycle to produce measurable impact.',
     },
   },
 ]

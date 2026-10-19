@@ -55,7 +55,7 @@ export function Hero() {
             <p className="text-sm font-mono text-zinc-400">
               {t(lang, 'hero.role')}
               <span className="mx-2 text-zinc-600">·</span>
-              <span className="text-zinc-500">{profile.location.city}, {profile.location.country}</span>
+              <span className="text-zinc-500">{profile.location.country}</span>
             </p>
           </div>
         </div>
@@ -71,13 +71,13 @@ export function Hero() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
           <a
             href="#systems"
-            className="px-5 py-2.5 rounded-xl bg-white text-zinc-900 text-sm font-semibold hover:bg-zinc-100 transition-colors w-full sm:w-auto text-center"
+            className="px-5 py-2.5 rounded-xl bg-white text-zinc-900 text-sm font-semibold hover:bg-zinc-200 hover:-translate-y-0.5 transition-all duration-200 w-full sm:w-auto text-center cursor-pointer shadow-lg shadow-white/5"
           >
             {t(lang, 'hero.cta_systems')} →
           </a>
           <a
             href="#contact"
-            className="px-5 py-2.5 rounded-xl border border-white/10 text-zinc-300 text-sm font-medium hover:bg-white/5 hover:border-white/20 hover:text-white transition-all w-full sm:w-auto text-center"
+            className="px-5 py-2.5 rounded-xl border border-white/10 text-zinc-300 text-sm font-medium hover:bg-white/5 hover:border-white/20 hover:text-white hover:-translate-y-0.5 transition-all duration-200 w-full sm:w-auto text-center cursor-pointer"
           >
             {t(lang, 'hero.cta_contact')}
           </a>
@@ -86,9 +86,9 @@ export function Hero() {
         {/* Divider / Scroll hint */}
         <div className="mt-16 flex flex-col items-center gap-2">
           <div className="flex items-center gap-6 text-xs font-mono text-zinc-600">
-            <a href={profile.links.github} target="_blank" rel="noopener noreferrer" className="hover:text-zinc-400 transition-colors">GitHub</a>
+            <a href={profile.links.github} target="_blank" rel="noopener noreferrer" className="hover:text-zinc-400 transition-colors cursor-pointer">GitHub</a>
             <span>·</span>
-            <a href={profile.links.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-zinc-400 transition-colors">LinkedIn</a>
+            <a href={profile.links.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-zinc-400 transition-colors cursor-pointer">LinkedIn</a>
             <span>·</span>
             <span className="text-zinc-700">{profile.location.timezone}</span>
           </div>
