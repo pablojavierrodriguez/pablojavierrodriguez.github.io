@@ -292,70 +292,90 @@ export interface Role {
 
 export const roles: Role[] = [
   {
-    title: { es: 'Technical Product Owner — OSS Ecosystem', en: 'Technical Product Owner — OSS Ecosystem' },
-    company: 'Personal (Telecom Argentina)',
-    period: { es: '2024 – 2026', en: '2024 – 2026' },
-    isCurrent: false,
+    title: { es: 'Arquitecto de Soluciones', en: 'Solutions Architect' },
+    company: 'Personal',
+    period: { es: 'Jun 2026 – Presente', en: 'Jun 2026 – Present' },
+    isCurrent: true,
     highlights: [
       {
-        es: 'Arquitectura de solución y dueño end-to-end del sistema de tickets y operaciones críticas OSS para 130K+ incidentes/mes.',
-        en: 'Solution architecture and end-to-end owner of the critical OSS ticketing and operations platform for 130K+ incidents/month.',
+        es: 'Definición de arquitecturas de solución dentro del dominio OSS (ITSM/SoR, órdenes, digitalización de workflows), transformando necesidades de negocio y operación en soluciones escalables.',
+        en: 'Defining solution architectures across the OSS domain (ITSM/SoR, ordering, workflow digitization), transforming business and operational needs into scalable architectures.',
       },
       {
-        es: 'Liderazgo en iniciativas de automatización e IA operativa: reducción directa de trabajo manual y detección anticipada.',
-        en: 'Led operational automation and AI initiatives: direct reduction in manual toil and proactive incident anticipation.',
+        es: 'Referente arquitectónico del dominio: definición de responsabilidades de sistemas, contratos de integración y límites funcionales entre aplicaciones y plataformas.',
+        en: 'Domain architectural lead: defining system boundaries, integration contracts, component responsibilities, and data flows across platforms.',
       },
       {
-        es: 'Articulación transversal entre arquitectura técnica, ingeniería, aseguramiento de calidad y ciberseguridad.',
-        en: 'Cross-functional governance spanning technical architecture, engineering, QA assurance, and cybersecurity.',
+        es: 'Evolución de capacidades OSS alineadas a TM Forum Open Digital Architecture (ODA), Autonomous Networks y automatización operativa impulsada por IA.',
+        en: 'Driving OSS evolution aligned with TM Forum Open Digital Architecture (ODA), Autonomous Networks, and AI-driven operational automation.',
       },
     ],
   },
   {
-    title: { es: 'Product Manager & Product Owner', en: 'Product Manager & Product Owner' },
-    company: 'Telecom Argentina',
-    period: { es: '2022 – 2025', en: '2022 – 2025' },
+    title: { es: 'Technical Product Owner — OSS Core', en: 'Technical Product Owner — OSS Core' },
+    company: 'Personal',
+    period: { es: 'Dic 2025 – Jun 2026', en: 'Dec 2025 – Jun 2026' },
     isCurrent: false,
     highlights: [
       {
-        es: 'Descubrimiento, arquitectura funcional y entrega continua de soluciones en el ecosistema OSS a través de múltiples squads.',
-        en: 'Discovery, functional architecture, and continuous delivery of OSS ecosystem solutions across multiple squads.',
+        es: 'Ownership end-to-end de la ticketera OSS core para operaciones críticas de red; alineación de roadmap con OKRs operativos mediante discovery y arquitectura modular.',
+        en: 'End-to-end ownership of the core OSS ticketing platform for critical network operations; roadmap alignment with operational OKRs via discovery and modular architecture.',
       },
       {
-        es: 'Transformación ágil de punta a punta (+30% eficiencia de sprints) y rediseño integral de producto (+25% KPI de usabilidad).',
-        en: 'End-to-end agile transformation (+30% sprint efficiency) and comprehensive product redesign (+25% usability KPI).',
+        es: 'Gobernanza técnica y mitigación de deuda técnica en BMC Helix ITSM + NetOps + integraciones con el ecosistema OSS.',
+        en: 'Technical governance and technical debt mitigation across BMC Helix ITSM + NetOps + OSS integrations.',
       },
       {
-        es: 'Liderazgo en el reemplazo y modernización de la aplicación core del ecosistema OSS.',
-        en: 'Led the modernization and replacement of the core operational application in the OSS ecosystem.',
+        es: 'Resultado 2026: +30% automatización ITSM → reducción del 25% en MTTR.',
+        en: 'Outcome 2026: +30% ITSM automation → 25% reduction in MTTR.',
       },
     ],
   },
   {
-    title: { es: 'Sr. Analista de Mejora Continua', en: 'Sr. Continuous Improvement Analyst' },
+    title: { es: 'Sr. Business Analyst & Product Owner', en: 'Sr. Business Analyst & Product Owner' },
     company: 'Telecom Argentina',
-    period: { es: '2019 – 2022', en: '2019 – 2022' },
+    period: { es: 'Feb 2022 – Dic 2025', en: 'Feb 2022 – Dec 2025' },
     isCurrent: false,
     highlights: [
       {
-        es: 'Arquitectura de procesos y agente de cambio durante la fusión Telecom/Cablevisión para 3500+ usuarios operativos.',
-        en: 'Process architecture and change agent during the Telecom/Cablevisión merger for 3,500+ operational users.',
+        es: '2025: Lideré el proyecto de reemplazo y migración de la app core OSS para la transformación digital de redes y plataformas.',
+        en: '2025: Led the replacement and migration of the core OSS app for digital transformation across networks and platforms.',
       },
       {
-        es: 'Lideré el Proyecto CROSS: unificación e interoperabilidad de sistemas de tickets para CTO y operaciones.',
-        en: 'Led Project CROSS: unification and interoperability of ticketing systems for CTO and regional operations.',
+        es: '2024: Automatización operativa con mejoras en MTTD, MTTR y NPS; reducción del 20% de FTE en aseguramiento.',
+        en: '2024: Operational automation driving improvements in MTTD, MTTR, NPS, and a 20% FTE reduction in assurance operations.',
+      },
+      {
+        es: '2023: Rediseño integral de producto (+25% KPI de usabilidad) y transformación ágil full-team (+30% eficiencia de sprints).',
+        en: '2023: Comprehensive product redesign (+25% usability KPIs) and full-team agile transformation (+30% sprint efficiency).',
+      },
+    ],
+  },
+  {
+    title: { es: 'Analista Sr. de Procesos y Mejora Continua', en: 'Sr. Continuous Improvement & Process Analyst' },
+    company: 'Telecom Argentina',
+    period: { es: 'Jun 2019 – Feb 2022', en: 'Jun 2019 – Feb 2022' },
+    isCurrent: false,
+    highlights: [
+      {
+        es: 'Implementación y arquitectura de procesos y sistemas convergentes post-fusión Telecom/Cablevisión para 3500+ usuarios en el ecosistema OSS.',
+        en: 'Implementation and architecture of converged post-merger Telecom/Cablevisión processes and systems for 3,500+ users in the OSS ecosystem.',
+      },
+      {
+        es: 'Referente de procesos y agente de cambio organizacional.',
+        en: 'Process reference and organizational change agent during cross-company convergence.',
       },
     ],
   },
   {
     title: { es: 'Co-fundador', en: 'Co-founder' },
     company: 'Mediavint',
-    period: { es: '2020 – 2021', en: '2020 – 2021' },
+    period: { es: 'Abr 2020 – Abr 2021', en: 'Apr 2020 – Apr 2021' },
     isCurrent: false,
     highlights: [
       {
-        es: 'Consultoría estratégica en arquitectura digital, posicionamiento de producto y modelos de negocio en etapa temprana.',
-        en: 'Strategic consultancy in digital architecture, product positioning, and early-stage business models.',
+        es: 'Consultoría estratégica en comunicación y estrategia digital para emprendedores en etapa temprana.',
+        en: 'Strategic consulting in digital strategy and product communication for early-stage entrepreneurs.',
       },
     ],
   },
@@ -378,10 +398,11 @@ export const education = {
     },
   ],
   certifications: [
-    'Atlassian Agile Project Management Professional (2024)',
-    'Product Management Fundamentals — Pendo.io (2024)',
-    'Data Analytics — Coderhouse (2023)',
-    'Product Manager Certification — Coderhouse (2022)',
+    'Introduction to Model Context Protocol (MCP) — Anthropic',
+    'Atlassian Agile Project Management Professional Certificate',
+    'Product Management Basics Certification — Pendo.io',
+    'Product Manager Certification — Coderhouse',
+    'Data Analytics Certification — Coderhouse',
     'ITIL® Foundation & PPO — Xelere',
     'LeSS (Large-Scale Scrum) Practitioner',
     'Tableau & Excel Data Processing — Coderhouse',
